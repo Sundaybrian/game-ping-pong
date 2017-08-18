@@ -21,6 +21,14 @@ Ping pong is a simple up-counter game.It prints up ping when numbers are divisib
 Written in HTML.Styled with CSS and Bootstrap.Scripted in Javascript and Jquery frameworks.
 
 ## Behaviour Driven Development(BDD)
+## Specifications
+* It can count to  a specified number
+* It can detect if a number is divisible by 3
+* It can detect if a number is divisible by 5
+* It can detect if a number is divisible by both 3 and 5
+*
+
+
 
 
 ## Support and contact details
