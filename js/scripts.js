@@ -2,16 +2,17 @@
 var counter= function (number) {
   for (var i=1; i<=number; i++){
      if ((i%3===0)&& (i%5===0)) {
-      alert("ping pong");
+      $("#outputList").append("<li> ping pong </li>");
+
 
     }else if (i%5===0) {
-      alert("pong");
+      $("#outputList").append("<li> pong</li>");;
 
     }else if (i%3===0){
 
-      alert('ping');
+      $("#outputList").append("<li> ping</li>");
     }else {
-      alert(i);
+      $("#outputList").append("<li>" +i+ " </li>");
     }
 
 
