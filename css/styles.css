@@ -1,0 +1,12 @@
+#landingpage{
+  text-align: center;
+  background-image: url("../images/bg.jpg");
+  height: 50vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#landingpage h1{
+  padding-top: 150px;
+  color: yellow;
+}
